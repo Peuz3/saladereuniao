@@ -23,3 +23,11 @@ spring.datasource.username=sa
 spring.datasource.password=password
 spring.jpa.database-plataform=org.hibernate.dialect.H2Dialect
 server.port=8080
+
+Vale salientar que é necessário acrescentar manualmente o Jakarta Validation:
+	<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<version>2.0.2</version>
+</dependency>
+
